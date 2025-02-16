@@ -60,7 +60,7 @@ export default function LoginScreen() {
 
           <TouchableOpacity
             onPress={() => {
-              router.push("./register");
+              router.push("./google");
             }}
             style={[styles.button, styles.oauthButton, { marginBottom: 10 }]}
           >
@@ -75,7 +75,7 @@ export default function LoginScreen() {
 
           <TouchableOpacity
             onPress={() => {
-              router.push("./register");
+              router.push("./apple");
             }}
             style={[styles.button, styles.oauthButton]}
           >
