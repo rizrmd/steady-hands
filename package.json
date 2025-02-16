@@ -11,8 +11,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "predeploy": "expo export:web",
-    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo export --platform web",
+    "deploy": "gh-pages -d dist",
     "preview": "expo start --web"
   },
   "jest": {
